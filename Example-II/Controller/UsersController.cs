@@ -48,5 +48,9 @@ namespace Example_II.Controller
             _users.Remove(deletedUser);
         }
 
+
+        //We use Postman in order to test Delete,Update,Add in Postman On Headers -> Content-Type -> application/json we have to do like that
+        //otherwise we cant run Delete,Update,Add actions 
+
     }
 }
